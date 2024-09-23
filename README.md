@@ -1,5 +1,7 @@
 # PostgreSQL Database Comparator
 
+Proof Of Concept
+- 
 A Python-based tool to compare database schema objects between two PostgreSQL servers (e.g., PROD vs. Staging). It helps track schema changes between different environments where Continuous Integration/Continuous Deployment (CI/CD) practices and versioning are not in place.
 
 ## Features
@@ -77,4 +79,16 @@ project_root/
     python main.py # without gui
     python gui/gui_main.py
 
-   
+
+## Notes
+Based on the actual configs, it is needed to add the databases credentiels in the *.pgpass* file to avoid password prompting everytime and to ensure some security best practices. 
+
+e.g : 
+- On Unix/Linux/MacOS: ~/.pgpass + chmod 600 ~/.pgpass
+- On Windows: %APPDATA%\postgresql\pgpass.conf
+
+example of content :
+   ```bash
+      hostname:port:database:username:password
+      localhost:5432:mydatabase:myuser:mypassword
+   ```
