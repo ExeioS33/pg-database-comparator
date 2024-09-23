@@ -12,6 +12,7 @@ Using the `psycopg2` library, this tool can compare the following PostgreSQL obj
 - Columns
 - Functions
 - Stored Procedures
+- Triggers
 
 ### Purpose
 - **Track Schema Changes:** Identify schema differences between production and other environments (e.g., staging).
@@ -81,7 +82,7 @@ project_root/
 
 
 ## Notes
-Based on the actual configs, it is needed to add the databases credentiels in the *.pgpass* file to avoid password prompting everytime and to ensure some security best practices. 
+Based on the actual configs, it is needed to add the databases credentials in the *.pgpass* file to avoid password prompting everytime and to ensure some security best practices. 
 
 e.g : 
 - On Unix/Linux/MacOS: ~/.pgpass + chmod 600 ~/.pgpass
