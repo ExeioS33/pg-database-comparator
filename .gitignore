@@ -1,0 +1,6 @@
+db/schemas/deprecated/
+venv/
+.idea/
+pandas_to_database/
+pandas_to_database_backup/
+.env
