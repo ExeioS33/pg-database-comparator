@@ -6,7 +6,7 @@ A Python-based tool to compare database schema objects between two PostgreSQL se
 
 ## Features
 
-Using the `psycopg2` library, this tool can compare the following PostgreSQL objects:
+Using the `psycopg2` library, this tool can compare the following PostgreSQL objects on a given schema:
 - Indexes
 - Tables
 - Columns
