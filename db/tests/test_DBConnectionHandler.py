@@ -36,4 +36,4 @@ def test_close_connections():
     db_handler = DbConnectionHandler('PG-TEST', 'PG-DWH')
     db_handler.connections = {'PG-TEST': mock_conn1, 'PG-DWH': mock_conn2}
 
-    assert db_handler.close_connections() == True
+    assert db_handler.close_connections() is True
