@@ -6,4 +6,6 @@
 /venv
 /.env
 /__pycache__
-/db_operations_copy
+/db_operations/copy_main.py
+/db_operations/DatabaseImporter.py
+/db_operations/__pycache__
