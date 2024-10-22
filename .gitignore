@@ -1,0 +1,8 @@
+/.idea
+/data
+/db/__pycache__
+/db/schemas/__pycache__
+/db/schemas/deprecated
+/venv
+/.env
+/__pycache__
